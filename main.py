@@ -12,6 +12,8 @@ intents.messages = True
 intents.message_content = True
 intents.dm_messages = True
 
+bot = commands.Bot(command_prefix='!', intents=intents)
+
 @dataclass
 class ScheduledMessage:
     title: str
