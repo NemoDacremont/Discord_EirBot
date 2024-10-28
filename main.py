@@ -471,4 +471,4 @@ async def on_ready():
     print(f'{bot.user} a démarré avec succès!')
     check_scheduled_messages.start()
 
-bot.run("YOUR_TOKEN")
+bot.run("<BOT_TOKEN>")
